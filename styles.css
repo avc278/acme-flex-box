@@ -1,38 +1,25 @@
 body {
+    font-family: verdana;
     margin: 0;
-}
-
-div {
-    height: 100px;
-}
-
-.heading-box{
+  }
+  
+  nav {
+    padding: 1rem;
     background-color: dodgerBlue;
     display: flex;
-    flex-direction: row;
-    padding: 1rem;
     justify-content: space-around;
     align-items: center;
-}
-
-a {
+  }
+  
+  nav a {
+    color: white;
     text-decoration: none;
-    
-}
-
-a.selected {
+  }
+  
+  nav a:first-child {
+    font-size: 1.5rem;
+  }
+  
+  a.selected {
     font-weight: bold;
-}
-
-h1 {
-    padding-right: 2rem;
-    color: white;
-}
-
-h2 {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    display: flex;
-    flex: 1;
-    color: white;
-}
+  }
